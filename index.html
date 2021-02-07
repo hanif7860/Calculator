@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="main">
+    <h1>calculator</h1>
+    <input type="email" id="in" onfocus="style.backgroundColor"">
+    <button type="button"  class="btn btn-secondary num"   onclick="setvalue('+')">+</button> 
+
+
+    <div class="qq">
+     <button type="button"  class="btn btn-secondary num"    onclick="setvalue('9')">9</button>
+     <button type="button"  class="btn btn-secondary num"     onclick="setvalue('8')">8</button>
+     <button type="button"  class="btn btn-secondary num"     onclick="setvalue('7')">7</button>
+     <button type="button"   class="btn btn-secondary num"     onclick="setvalue('-')">-</button> 
+    </div>
+    <div class="qq">
+     <button type="button"   class="btn btn-secondary num"     onclick="setvalue('6')">6</button>
+     <button type="button"   class="btn btn-secondary num"    onclick="setvalue('5')">5</button>
+     <button type="button"   class="btn btn-secondary num"    onclick="setvalue('4')">4</button>
+     <button type="button"  class="btn btn-secondary num"     onclick="setvalue('*')">x</button>
+       </div>
+      <div class="qq">
+     <button type="button"   class="btn btn-secondary num"     onclick="setvalue('3')">3</button>
+     <button type="button"   class="btn btn-secondary num"    onclick="setvalue('2')">2</button>
+      <button type="button"  class="btn btn-secondary num"     onclick="setvalue('1')">1</button>
+      <button type="button"  class="btn btn-secondary num"     onclick="setvalue('/')">/</button>  
+      </div>
+      <div class="rr">
+        <button class="com" onclick="setvalue('0')">0</button>
+        <button class="zor" onclick="eq('=')">=</button>
+        <button class="bb" onclick="clr()">clear</button>
+        </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

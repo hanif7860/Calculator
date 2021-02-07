@@ -1,0 +1,96 @@
+body{
+    
+    margin: 0%;
+    padding: 0%;
+    background-color: currentColor;
+    /* border: 1px solid red; */
+    
+}
+h1{
+    color: aliceblue;
+    text-shadow: 3px 3px 10px;
+}
+input{
+    padding-left: 10px;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    padding-right: 12px;
+    box-shadow: 1px 1px 10px;
+}
+input:hover{
+    background: linear-gradient(rgb(112, 191, 228),pink);
+    color: white;
+}
+.qq{
+    margin: 3px;
+}
+.main{
+    text-align: center;
+}
+.main:hover{
+    background: linear-gradient(pink,purple,blue);
+}
+.btn:hover{
+    background: linear-gradient(blue,black);
+    color: white;
+}
+
+
+.btn{
+   padding-top: 15px;
+   padding-left: 25px;
+   padding-bottom: 15px;
+   padding-right: 25px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+   background-color:teal;
+   box-shadow: 1px 1px 10px;
+}
+.com{
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: rgb(184, 178, 178);
+    box-shadow: 1px 1px 10px;
+}
+.zor{
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: rgb(184, 178, 178);
+    box-shadow: 1px 1px 10px;
+}
+.bb{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: rgb(184, 178, 178);
+    box-shadow: 1px 1px 10px;
+}
+.bb:hover{
+    background: linear-gradient(blue,black);
+    color: white;
+}
+.com:hover{
+    background: linear-gradient(blue,black);
+    color: white;
+}
+.zor:hover{
+    background: linear-gradient(blue,black);
+    color: white;
+}
+
+
+
+
+
+
